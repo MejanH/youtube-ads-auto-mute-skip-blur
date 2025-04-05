@@ -33,7 +33,7 @@ function skipAds() {
 // Observe changes in the DOM for ads or skip buttons
 const observer = new MutationObserver(() => {
   muteAds(); // Check if ads are playing and mute them
-  skipAds(); // Check if the skip button is available and click it
+  // skipAds(); // Check if the skip button is available and click it
 });
 
 // Start observing changes in the document body
