@@ -26,6 +26,9 @@
       "matches": [
         "https://www.youtube.com/*"
       ],
+      "css": [
+        "styles.css"
+      ],
       "js": [
         "content.js"
       ]

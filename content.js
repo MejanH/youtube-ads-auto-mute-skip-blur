@@ -5,7 +5,7 @@ function muteAds() {
 
   if (video && adOverlay) {
     video.muted = true; // Mute the video if an ad is playing
-    video.style.filter = "blur(10px)"; // Blur the video when an ad is playing
+    video.style.filter = "blur(15px)"; // Blur the video when an ad is playing
   } else if (video) {
     video.muted = false; // Unmute the video when no ads are playing
     video.style.filter = "none"; // Remove the blur when ads are not playing

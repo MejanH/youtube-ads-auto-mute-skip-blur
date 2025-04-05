@@ -1,0 +1,4 @@
+/* blur.css */
+ad-image-view-model img {
+  filter: blur(15px) !important;
+}
