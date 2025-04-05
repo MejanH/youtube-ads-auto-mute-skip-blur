@@ -1,4 +1,5 @@
 /* blur.css */
-ad-image-view-model img {
+ad-image-view-model img,
+ytd-in-feed-ad-layout-renderer img {
   filter: blur(15px) !important;
 }
